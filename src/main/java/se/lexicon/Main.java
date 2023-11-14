@@ -23,7 +23,7 @@ public class Main {
         }  else if (isDivisibleBy100 && !isDivisibleBy400){
             System.out.println("Not a Leap Year. Divisible by 100 but not by 400");
         } else {
-            System.out.println("Don't need. Leap Year 2");
+            System.out.println("Leap Year ...end");
         }
 
 
