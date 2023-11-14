@@ -53,6 +53,6 @@ What's a leap year
 
 https://www.mathsisfun.com/leap-years.html
 
-https://www.shiksha.com/online-courses/articles/leap-year-in-java/#:~:text=Check%20Leap%20Year%20in%20Java%20using%20Ternary%20Operator&text=Use%20boolean%20condition%20year%20%25%204,is%20not%20a%20leap%20year%E2%80%9D.
+https://www.shiksha.com/online-courses/articles/leap-year-in-java/
 
  */
