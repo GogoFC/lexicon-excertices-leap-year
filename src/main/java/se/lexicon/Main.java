@@ -23,19 +23,14 @@ public class Main {
         }  else if (isDivisibleBy100 && !isDivisibleBy400){
             System.out.println("Not a Leap Year. Divisible by 100 but not by 400");
         } else {
-            System.out.println("Leap Year 2");
+            System.out.println("Don't need. Leap Year 2");
         }
 
 
 
 
-
         //long whatInTheWorld = (year % 4);
-
-
-
         //System.out.println(whatInTheWorld);
-
         //int modulus = 12 % 3;
         //System.out.println(modulus);
     }
