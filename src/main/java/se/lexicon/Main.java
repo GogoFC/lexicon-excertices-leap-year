@@ -15,14 +15,15 @@ public class Main {
         boolean isDivisibleBy400 = (year % 400 == 0);
 
 
-        if (isDivisibleBy4) && (isDivisibleBy400){
-            System.out.println("Leap Year");
-        } /*else if (!isDivisibleBy4){
-            System.out.println("Not a Leap Year");
-        }*/ else if (isDivisibleBy100) && (!isDivisibleBy400){
-            System.out.println("Not a Leap Year");
+
+        if (!isDivisibleBy4){
+            System.out.println("Not a Leap Year. Not divisible by 4");
+        } else if (isDivisibleBy4 && isDivisibleBy400){
+            System.out.println("Leap Year. Divisible by 4 & 400");
+        }  else if (isDivisibleBy100 && !isDivisibleBy400){
+            System.out.println("Not a Leap Year. Divisible by 100 but not by 400");
         } else {
-            System.out.println("Not a Leap Year");
+            System.out.println("Leap Year 2");
         }
 
 
